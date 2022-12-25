@@ -1,3 +1,4 @@
+import Btnz from '../button/Btn';
 import './mainPara.css'
 
 const Parallax = () => {
@@ -7,6 +8,10 @@ const Parallax = () => {
             <div className='d-flex flex-column text-center'>
             <section className='fs-60'>We Change Everything WordPress</section>
             <small className='mt-4'>This is the only WordPress theme you will ever want to use.</small>
+            <div className='d-flex justify-content-center mt-5'>
+            <Btnz text='READ MORE'/>
+            <Btnz text='DOWNLOAD NOW'/>
+            </div>
             </div>
         </div>
     </div>
