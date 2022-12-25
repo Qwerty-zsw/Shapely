@@ -8,24 +8,24 @@ import "./Navbar.css";
 const Header = () => {
   return (
     <>
-      <Navbar bg="black" variant="dark">
-        <Container className="w-40 p-1 px-5">
-          <Navbar.Brand className="ms-5 text-muted fs-4" href="#">Shapely Demo</Navbar.Brand>
-          <Nav className="d-flex me-5 align-items-center gap-2">
-
+      <Navbar bg="black" variant="w-100 dark">
+        <Container className="w-70 p-1">
+          <Navbar.Brand className="ms-5 text-muted Brnd fs-4" href="#">Shapely Demo</Navbar.Brand>
+          
+          <Nav className="w-100 d-flex justify-content-end me-5 align-items-center gap-3">
 
             <Nav.Link className="text-light fs-7" href="#">HOME</Nav.Link>
             <Nav.Link className="text-light fs-7" href="#">BLOG</Nav.Link>
             <Nav.Link className="text-light fs-7" href="#">PORTFOLIO</Nav.Link>
 
-            <NavDropdown className="fs-7 text-light" title="ABOUTTHETESTS" id="basic-nav-dropdown">
+            <NavDropdown className="fs-7 cusDrop text-light" title="ABOUTTHETESTS" id="basic-nav-dropdown">
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown className="text-light fs-7" title="LEVEL1" id="basic-nav-dropdown">
+            <NavDropdown className="text-light cusDrop fs-7" title="LEVEL1" id="basic-nav-dropdown">
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
@@ -34,7 +34,7 @@ const Header = () => {
 
             <Nav.Link className="text-light fs-7" href="#">SHOP</Nav.Link>
 
-            <Nav.Link className="ps-4 text-success" href="#">
+            <Nav.Link className="ms-3 textColr" href="#">
               <BiSearch />
             </Nav.Link>
 
