@@ -2,7 +2,7 @@ import Btnz from "../button/Btn";
 
 const Details = (props) => {
   return (
-    <div className={`w-100 h-75 ${props.bgc}`}>
+    <div className={`w-100 h-75 ${props.DetailsBgc}`}>
       <div className={`w-100 h-100 d-flex justify-content-center align-items-center ${props.reverse}`}>
         
         <div className="w-50 d-flex justify-content-center align-items-center">
