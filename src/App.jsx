@@ -9,7 +9,7 @@ const App = () => {
       <Header />
       <Parallax
         paraSecWidth="w-100"
-        BtnclassName="TransBtn"
+        BtnSecClassName="TransBtn"
         paraFs="fs-60"
         BtnText="READ MORE"
         BtnTextSec="DOWNLOAD NOW"
@@ -43,7 +43,7 @@ const App = () => {
         ImgPageMainClassName="bg-light"
         ImgPageTitle="Limitless Options"
         ImgPagePara="Phasellus sed nisi ac dui interdum semper. Etiam consequat fermentum sollicitudin. Fusce vulputate porta faucibus. Vivamus nulla tellus, accumsan non efficitur id, pretium quis ante"
-        BtnText="Download Now"
+        BtnTextSec="Download Now"
         SmallImgLook="d-none"
         ImgPage="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1440557653082-e8e186733eeb-1.jpg"
       />
@@ -54,10 +54,18 @@ const App = () => {
         ImgPagePara="Phasellus sed nisi ac dui interdum semper. Etiam consequat fermentum sollicitudin. Fusce vulputate porta faucibus. Vivamus nulla tellus, accumsan non efficitur id, pretium quis ante"
         MainImgLook="d-none"
         BtnSecClassName='d-none'
-        ImgPageSmall="https://149842022.v2.pressablecdn.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1422568374078-27d3842ba676-1.jpg"
+        ImgPageSmall="https://149842022.v2.pressablecdn.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1451186859696-371d9477be93-1-1.jpg"
       />
+
+<Parallax
+        BtnClassMain='d-none'
+        BtnSecClassName="d-none"
+        height="h-25"
+        bgImg="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg"
+      />
+
     </div>
   );
 };
-
+// https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg
 export default App;

@@ -13,6 +13,7 @@ const ImgPage = (props)=>{
                 <img className="w-100" src={props.ImgPage} />
             </div>
 
+            <div className="pb-1">
             <div className={`w-25 d-flex felx-wrap pt-4 ${props.SmallImgLook}`}>
                 <img className="w-100" src={props.ImgPageSmall} />
                 <img className="w-100" src={props.ImgPageSmall} />
@@ -32,6 +33,7 @@ const ImgPage = (props)=>{
                 <img className="w-100" src={props.ImgPageSmall} />
                 <img className="w-100" src={props.ImgPageSmall} />
                 <img className="w-100" src={props.ImgPageSmall} />
+            </div>
             </div>
 
         </div>

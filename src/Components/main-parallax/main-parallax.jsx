@@ -22,7 +22,7 @@ const Parallax = (props) => {
           <div
             className={`w-100 d-flex justify-content-center mt-4 ${props.paraBtnVisibility}`}
           >
-            <Btnz BtnText={props.BtnText} />
+            <Btnz BtnText={props.BtnText} BtnSecClassName={props.BtnClassMain} />
             <Btnz BtnSecClassName={props.BtnSecClassName} BtnText={props.BtnTextSec} />
           </div>
         </div>
