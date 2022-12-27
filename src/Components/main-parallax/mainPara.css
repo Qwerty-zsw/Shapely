@@ -8,3 +8,18 @@
 .fs-60 {
   font-size: 60px;
 }
+
+.font-s{
+  font-size: 14px;
+}
+
+.TransBtn{
+  background-color: transparent;
+  transition: .3s;
+  border: 2px solid gray !important;
+}
+
+.TransBtn:hover{
+  background-color: black;
+  color: lightgray;
+}

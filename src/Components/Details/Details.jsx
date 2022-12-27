@@ -12,7 +12,7 @@ const Details = (props) => {
         <div className="w-25">
             <h3>SEO Friendly</h3>
             <p className="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.</p>
-            <Btnz text='READ MORE'/>
+            <Btnz BtnText={props.BtnText}/>
         </div>
 
       </div>
