@@ -14,7 +14,7 @@ const Details = (props) => {
 
         <div className={`${props.ClassDetailsText}`}>
           <h3 className={`${props.DetailH3}`}>{props.DetailTitle}</h3>
-          <p className="my-4 text-muted">{props.DetailPara}</p>
+          <p className={`my-4 ${props.ClassParaDetail}`}>{props.DetailPara}</p>
           <Btnz
             BtnText={props.BtnText}
             BtnSecClassName={props.BtnSecClassName}

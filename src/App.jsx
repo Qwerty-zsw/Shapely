@@ -20,6 +20,7 @@ const App = () => {
       />
       <Details
         DetailsMainClass="bg-black h-75"
+        ClassParaDetail='text-muted'
         ClassDetailsText="w-25"
         DetailTitle="SEO Friendly"
         DetailPara="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies."
@@ -29,6 +30,7 @@ const App = () => {
       <Details
         DetailsMainClass="bg-dark h-75"
         ClassDetailsText="w-25"
+        ClassParaDetail='text-muted'
         DetailTitle="Portfolio Section"
         DetailPara="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum."
         BtnText="SEE IT IN ACTION"
