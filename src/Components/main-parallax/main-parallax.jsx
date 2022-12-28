@@ -14,7 +14,7 @@ const Parallax = (props) => {
           </section>
           <div className="w-100 d-flex justify-content-center">
             <small
-              className={`${props.paraSecWidth} ${props.paraSmallFont} mt-4 mb-2`}
+              className={`${props.paraSecWidth} ${props.paraSmallFont} mt-3 mb-2`}
             >
               {props.paraSmallText}
             </small>

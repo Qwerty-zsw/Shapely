@@ -6,3 +6,7 @@
 .btn:hover {
     background-color: #574ff7;
 }
+
+.cusBtnWidth{
+  width: 15.5rem !important;
+}
