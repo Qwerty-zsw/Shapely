@@ -5,7 +5,7 @@ import Header from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <div className="w-100 h-100">
+    <div className="w-100 h-100 col-12 col-md-8 col-lg-6">
       <Header />
       <Parallax
         paraSecWidth="w-100"
