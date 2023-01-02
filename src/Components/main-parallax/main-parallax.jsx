@@ -1,29 +1,38 @@
 import Btnz from "../button/Btn";
 import "./mainPara.css";
 
-const Parallax = (props) => {
+const Parallax = ({
+  bgImg,
+  height,
+  paraFs,
+  ParaText,
+  paraSecWidth,
+  paraSmallFont,
+  paraSmallText,
+  paraBtnVisibility,
+  BtnText,
+  BtnClassMain,
+  BtnSecClassName,
+  BtnTextSec,
+}) => {
   return (
     <div
-      style={{ backgroundImage: `url(${props.bgImg})` }}
-      className={`w-100 ${props.height} position-relative parallax-window`}
+      style={{ backgroundImage: `url(${bgImg})` }}
+      className={`w-100 ${height} position-relative parallax-window`}
     >
       <div className="w-100 h-100 d-flex position-absolute justify-content-center align-items-center">
         <div className="w-100 d-flex flex-column text-center">
-          <section className={`w-100 ${props.paraFs}`}>
-            {props.ParaText}
-          </section>
+          <section className={`w-100 ${paraFs}`}>{ParaText}</section>
           <div className="w-100 d-flex justify-content-center">
-            <small
-              className={`${props.paraSecWidth} ${props.paraSmallFont} mt-3 mb-2`}
-            >
-              {props.paraSmallText}
+            <small className={`${paraSecWidth} ${paraSmallFont} mt-3 mb-2`}>
+              {paraSmallText}
             </small>
           </div>
           <div
-            className={`w-100 d-flex justify-content-center mt-4 ${props.paraBtnVisibility}`}
+            className={`w-100 d-flex justify-content-center mt-4 ${paraBtnVisibility}`}
           >
-            <Btnz BtnText={props.BtnText} BtnSecClassName={props.BtnClassMain} />
-            <Btnz BtnSecClassName={props.BtnSecClassName} BtnText={props.BtnTextSec} />
+            <Btnz BtnText={BtnText} BtnSecClassName={BtnClassMain} />
+            <Btnz BtnSecClassName={BtnSecClassName} BtnText={BtnTextSec} />
           </div>
         </div>
       </div>
