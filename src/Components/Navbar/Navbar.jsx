@@ -10,11 +10,7 @@ const Header = () => {
     <>
       <Navbar bg="black" variant="w-100 dark">
         <Container className="w-70 p-1">
-<<<<<<< HEAD
           <Navbar.Brand className="ms-5 mb-2 text-muted Brnd fs-4" href="#">Shapely Demo</Navbar.Brand>
-=======
-          <Navbar.Brand className="ms-5 text-muted" href="#">Shapely Demo</Navbar.Brand>
->>>>>>> e021adb4452247e7f629a45fd5a1d60e4e90b461
           
           <Nav className="w-100 d-flex justify-content-end me-4 align-items-center gap-3">
 
