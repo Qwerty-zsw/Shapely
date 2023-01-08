@@ -1,12 +1,23 @@
-.btn {
+.btnz {
   background-color: #6b65f4;
   border: 2px solid rgb(112, 84, 255) !important;
+  transition: .3s;
 }
 
-.btn:hover {
+.btnz:hover {
     background-color: #574ff7;
 }
 
 .cusBtnWidth{
   width: 15.5rem !important;
+}
+
+.TransBtn{
+  background-color: transparent;
+  border: 2px solid gray !important;
+}
+
+.TransBtn:hover{
+  background-color: black;
+  color: lightgray;
 }
