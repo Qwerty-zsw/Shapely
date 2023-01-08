@@ -14,25 +14,25 @@ const Header = () => {
           
           <Nav className="w-100 d-flex justify-content-end me-4 align-items-center gap-3">
 
-            <Nav.Link className="text-light fs-8" href="#">HOME</Nav.Link>
-            <Nav.Link className="text-light fs-8" href="#">BLOG</Nav.Link>
-            <Nav.Link className="text-light fs-8" href="#">PORTFOLIO</Nav.Link>
+            <Nav.Link className="text-light fs-7" href="#">HOME</Nav.Link>
+            <Nav.Link className="text-light fs-7" href="#">BLOG</Nav.Link>
+            <Nav.Link className="text-light fs-7" href="#">PORTFOLIO</Nav.Link>
 
-            <NavDropdown className="fs-8 cusDrop text-light" title="ABOUTTHETESTS" id="basic-nav-dropdown">
+            <NavDropdown className="fs-7 cusDrop text-light" title="ABOUTTHETESTS" id="basic-nav-dropdown">
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown className="text-light cusDrop fs-8" title="LEVEL1" id="basic-nav-dropdown">
+            <NavDropdown className="text-light cusDrop fs-7" title="LEVEL1" id="basic-nav-dropdown">
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
               <NavDropdown.Item className="text-light" href="#">Actions</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link className="text-light fs-8" href="#">SHOP</Nav.Link>
+            <Nav.Link className="text-light me-3 fs-7" href="#">SHOP</Nav.Link>
 
             <Nav.Link className="ms-3 textColr" href="#">
               <BiSearch />
