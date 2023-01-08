@@ -1,5 +1,6 @@
-.fs-7{
-    font-size: 12px;
+
+.fs-8{
+    font-size: .6rem;
 }
 
 .w-70{
@@ -18,10 +19,14 @@
     color: rgb(198, 140, 253) !important;
 }
 
-.dropdown-item, .navbar-brand{
-    transition: .89s;
+.dropdown-item{
+    transition: .4s;
 }
 
 .navbar-brand:hover{
     color: white !important;
+}
+
+.navbar-brand{
+    transition: .7s !important;
 }
